@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  body {
+    padding: 0px 450px 200px 300px;
+    display: block;
+  }
+  
+  .gallery {
+    max-width: 1200px;
+    margin-top: 25px;
+  }
+  
+  .card {
+    display: inline-block;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 2px;
+    width: 350px; /* Tres tarjetas por fila con espacio */
+    height: 480px;
+    margin: 8px; /* Espacio entre las tarjetas */
+    vertical-align: top;
+
+  }
+  
+  img {
+    display: block;
+    width: 150px;
+    height: 250px;
+    margin: 0px 0px 0px 100px;
+    filter: drop-shadow(0 0 4px black)
+  }
+  
+  h1 {
+    padding: 5px;
+    margin: 9px 0;
+    text-align: left;
+    font-size: 25px;
+  }
+  
+  p {
+    padding: 0px;
+    text-align: justify;
+  }
